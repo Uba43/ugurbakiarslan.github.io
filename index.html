@@ -1,0 +1,117 @@
+Git Nedir? 
+
+Git, bilgisayar dosyalarındaki değişiklikleri izlemek için kullanılan bir sürüm kontrol sistemidir. Genellikle yazılım geliştirmede kaynak kod yönetimi için kullanılır. 
+
+Git, kaynak koddaki değişiklikleri izlemek için kullanılır. 
+
+Dağıtılmış sürüm kontrol aracı, kaynak kodu yönetimi için kullanılır. 
+
+Birden fazla geliştiricinin birlikte çalışmasına izin verir. 
+
+ 
+
+En Çok Kullanılan Git Komutları 
+
+1. git config 
+
+Bu komut, git etkinliklerinizle ilişkili bir yazar adı ve e-posta yapılandırmak için kullanılır. 
+
+Kullanım: Yazar adını global olarak yapılandırmak için. 
+
+git config –global user.name [name] 
+
+Kullanım: Yazar adını yerel olarak yapılandırmak için. 
+
+git config user.name [name] 
+
+Kullanım: E-posta adreslerini yerel olarak yapılandırmak için. 
+
+git config user.email [email address] 
+
+Kullanım: E-posta adreslerini global olarak yapılandırmak için. 
+
+git config –global user.email [email address] 
+
+2. git init 
+
+Bu komut, yeni bir git deposu başlatmak için kullanılır. 
+
+git init [repository name] 
+
+Not: Depoya bir ad vermezseniz, varsayılan olarak .git olur. 
+
+3. git clone 
+
+Bu komut, uzak bir git deposunu klonlamak için kullanılır. 
+
+git clone [url] 
+
+4. git add 
+
+Projenizi ya da belirttiğiniz bir dosyayı projeyi çalışma dizinine eklemek için kullanılır. 
+
+Kullanım: Belirli bir dosyayı eklemek için. 
+
+git add [filename] 
+
+Kullanım: Tüm proje dosyalarını eklemek için 
+
+git add  
+
+5. git commit 
+
+Bu komut, bir dosyayı proje sürüm geçmişine kalıcı olarak kaydetmek için kullanılır.  
+
+Kullanım: Aşamalı değişikliklerinizi taahhüt etmek için. 
+
+git commit -m [message] 
+
+Kullanım: Şimdiye kadarki tüm aşamalı ve aşamalı olmayan değişiklikleri yapmak için kullanılır. 
+
+git commit -a 
+
+6. git diff 
+
+Bu komut, mevcut dosya değişikliklerini kontrol etmek için kullanılır. 
+
+Kullanım: Tüm aşamalandırılmamış dosya değişikliklerini kontrol etmek için. 
+
+git diff 
+
+Kullanım: Tüm aşamalı dosya değişikliklerini kontrol etmek için. 
+
+git diff -staged 
+
+Kullanım: İki git dalı arasındaki dosya değişikliklerini kontrol etmek için. 
+
+git diff [first branch] [second branch] 
+
+7. git status 
+
+Bu komut, taahhüt edilen tüm dosyaları listelemek için kullanılır. 
+
+git status 
+
+8. git reset 
+
+Bu komut, Git deposunun durumundaki yerel değişiklikleri geri almak için kullanılır. 
+
+git reset 
+
+Kullanım: Sıfırlama için kullanılır. 
+
+git reset [commit id] 
+
+9. git rm 
+
+Bu komut, geçerli çalışma dizininden belirli bir dosyayı silmek için kullanılır ve silme işlemini gerçekleştirir. 
+
+git rm [filename] 
+
+10. git log 
+
+Bu komut, geçerli git dalının sürüm geçmişini listelemek için kullanılır. 
+
+git log 
+
+ 
